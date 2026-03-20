@@ -1,0 +1,36 @@
+body {
+    background-color: #f0f0f0;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+input, textarea, select {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 8px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+a:hover {
+    color: red;
+}
