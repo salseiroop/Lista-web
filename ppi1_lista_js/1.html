@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Soma de numeros de interface</h1>
+
+    <label for="entradaA">A</label>
+    <input type="number" name=""id="entradaA">
+    
+    <label for="entradaA">B></label>
+    <input type="number" name=""id="entradaA">
+    <span>=</span>
+    <span id="Resultado"></span>
+    <br>
+    <br>
+    <input id="btn" type="button" value="Somar">
+    <div>   
+</div>
+    <script>
+        let a,b;
+        let inputA = document.querySelector("#EntradaA")
+        let inputB = document.querySelector("#EntradaB")
+        let botao = document.getElementById("btn")
+
+        function soma(a, b){
+            return a+b
+
+    }
+
+        botao.addEventListener("click",()=>{
+            a=Number(inputA.value);
+            b=Number(inputB.value);
+            soma=a+b;
+            let spanresultado=document.querySelector("#Resultado")
+            spanresultado.innerHTML=soma
+        })
+
+    </script>
+
+</body>
+</html>
